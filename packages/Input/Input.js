@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
 export const Input = React.forwardRef((props, ref) => (
   <input
@@ -8,3 +9,9 @@ export const Input = React.forwardRef((props, ref) => (
     value={props.value}
   />
 ))
+
+Input.propTypes = {
+  onChange: PropTypes.func.isRequired,
+  inputTypes: PropTypes.string.isRequired,
+  value: PropTypes.value.isRequired
+}
