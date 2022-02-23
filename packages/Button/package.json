@@ -1,8 +1,11 @@
 {
-  "name": "button",
+  "name": "@exoplanet/button",
   "version": "0.2.2-alpha.0",
   "description": "",
   "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,5 +16,5 @@
   "keywords": [],
   "author": "Matt Bodily",
   "license": "MIT",
-  "gitHead": "9711d51213cb648c5f04ac5a42dee87a303052da"
+  "gitHead": "0ae861c3595bbb4f5e91c856763ad3c8f8f38a74"
 }
