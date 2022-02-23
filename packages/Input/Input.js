@@ -6,6 +6,7 @@ export const Input = React.forwardRef((props, ref) => (
     onChange={props.onChange}
     ref={ref}
     type={props.inputTypes || 'text'}
+    style={props.style}
     value={props.value}
   />
 ))
@@ -13,5 +14,6 @@ export const Input = React.forwardRef((props, ref) => (
 Input.propTypes = {
   onChange: PropTypes.func.isRequired,
   inputTypes: PropTypes.string.isRequired,
+  style: PropTypes.object,
   value: PropTypes.value.isRequired
 }

@@ -5,6 +5,7 @@ export const Button = React.forwardRef((props, ref) => (
   <button 
     onClick={props.onClick}
     ref={ref}
+    style={props.style}
   >
     {props.children}
   </button>
@@ -12,4 +13,5 @@ export const Button = React.forwardRef((props, ref) => (
 
 Button.propTypes = {
   onClick: PropTypes.func.isRequired,
+  style: PropTypes.object,
 }
