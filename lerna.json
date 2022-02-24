@@ -3,5 +3,8 @@
     "packages/*"
   ],
   "version": "independent",
-  "ignoreChanges": ["*.md"]
+  "ignoreChanges": ["*.md"],
+  "bootstrap": {
+    "npmClientArgs": ["--no-package-lock"]
+  }
 }

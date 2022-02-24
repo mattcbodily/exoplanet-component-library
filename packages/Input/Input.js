@@ -15,5 +15,5 @@ Input.propTypes = {
   onChange: PropTypes.func.isRequired,
   inputTypes: PropTypes.string.isRequired,
   style: PropTypes.object,
-  value: PropTypes.value.isRequired
+  value: PropTypes.value.isRequired,
 }
